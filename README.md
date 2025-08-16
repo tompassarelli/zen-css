@@ -20,6 +20,7 @@ This guide explains how to configure **Zen** with custom styles and Sidebery int
 
    * Find your **Root Directory** → click **Open Folder**.
    * ⚠️ Note: the **Flatpak directory** is different.
+   * /var/home/<user>/.zen/bco60lxm.Default(release)/chrome/userChrome.css
 
 3. Inside that profile folder:
 
@@ -32,7 +33,38 @@ This guide explains how to configure **Zen** with custom styles and Sidebery int
 
 1. Open **Sidebery Settings**.
 2. Scroll down and open the **Styles Editor** tab.
-3. Copy & paste your CSS into the code editor on the right.
+3. Copy & paste your sideberry.css into the code editor on the right.
+4. Turn off the horizontal tab panel as I have under Navigation Bar in settings 
+
+---
+
+## 3. Set Zen’s Look and Feel
+
+* In Zen, go to **Look and Feel**.
+* Select **Single Toolbar**.
+
+---
+
+## 4. Adjust `about:config` settings
+
+Open `about:config` and set the following preferences:
+
+```ini
+theme.sidebery.hide-zen-tabbar      = true
+zen.tabs.vertical.right-side        = false
+zen.theme.content-element-separation = 0
+zen.view.compact-should-enable-at-startup = false
+zen.view.compact-hide-toolbar       = true
+zen.urlbar.behavior                 = normal
+```
+
+---
+
+✅ You’re done! Restart Zen to apply all changes.
+
+---
+
+
 
 ---
 
