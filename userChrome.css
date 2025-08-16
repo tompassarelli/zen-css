@@ -1,0 +1,83 @@
+/* less gutter width */
+#sidebar-splitter {
+  margin: 0px !important;;
+}
+
+/* i don't need rounding*/
+#sidebar-box {
+	border-radius: 0px !important;
+}
+
+/* Remove the "Sideberry", "History", etc. sidepanel header  */
+#sidebar-header {
+  display: none;
+}
+
+/* don't think I need */
+#nav-bar {
+	display: none;
+}
+
+/* extension menu, back arrow forward arrow etc */
+#zen-sidebar-top-buttons {
+	position: fixed;
+  left: 2px;
+}
+
+#downloads-button {
+	display: none;
+}
+
+/* don't need this with sideberry */
+#zen-create-new-button {
+	display:none;
+}
+
+/* lazily removing all titlebar buttons */
+.titlebar-button {
+	display: none;
+}
+
+/* Pin Search Bar / Url bar above the sideberry tabs, and below the zen-sidebar top buttons */
+#urlbar-container {
+	position: relative;
+	top: 40px;
+	width: 214px !important;
+	margin-left: 5px !important;
+}
+
+/* make sure the pop-out URL box when activated coincides with no position */
+/* #urlbar {
+	display: relative !important;
+	margin: 0px !important; 
+	left: 4px !important;
+} */
+
+
+/* Create more space / remove useless icon in address bar */
+#identity-icon-label {
+	display: none !important;;
+}
+/* Create more space / remove useless icon in address bar */
+#page-action-buttons {
+	display: none !important;
+}
+
+#navigator-toolbox[zen-sidebar-expanded="true"] {
+	--zen-toolbox-min-width: 0px !important;
+	width: 0px !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+#zen-sidebar-splitter {
+	display: none;
+}
+
+hbox .toolbar-items {
+	display: none
+}
+
+#titlebar {
+	display: none;
+}
