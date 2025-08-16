@@ -20,7 +20,6 @@ This guide explains how to configure **Zen** with custom styles and Sidebery int
 
    * Find your **Root Directory** → click **Open Folder**.
    * ⚠️ Note: the **Flatpak directory** is different.
-   * /var/home/username/.zen/profilename(release)/chrome/userChrome.css
 
 3. Inside that profile folder:
 
