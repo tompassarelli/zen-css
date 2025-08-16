@@ -1,4 +1,4 @@
-![Demo](assets/demo.gif)
+![Demo](assets/demo.png)
 
 # ⚙️ Configuration Guide
 
