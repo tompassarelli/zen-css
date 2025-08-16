@@ -8,23 +8,7 @@ This guide explains how to configure **Zen** with custom styles and Sidebery int
 
 ## 1. Add `userChrome.css` to your Zen profile
 
-1. Open Zen and navigate to `about:config` in the URL bar.
-
-   * Set:
-
-     ```
-     toolkit.legacyUserProfileCustomizations.stylesheets = true
-     ```
-
-2. Open `about:profiles` in the URL bar.
-
-   * Find your **Root Directory** → click **Open Folder**.
-   * ⚠️ Note: the **Flatpak directory** is different.
-
-3. Inside that profile folder:
-
-   * Create a folder named `chrome`.
-   * Place your `userChrome.css` file inside.
+1. see https://docs.zen-browser.app/guides/live-editing#step-1-access-the-profile-folder
 
 ---
 
