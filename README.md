@@ -1,3 +1,5 @@
+![Demo](assets/demo.gif)
+
 # ⚙️ Configuration Guide
 
 This guide explains how to configure **Zen** with custom styles and Sidebery integration.
