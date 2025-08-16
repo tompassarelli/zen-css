@@ -1,7 +1,3 @@
-Here’s a polished version of your README with good structure, formatting, and readability. I’ve kept all your content but made it more approachable and professional:
-
----
-
 # ⚙️ Configuration Guide
 
 This guide explains how to configure **Zen** with custom styles and Sidebery integration.
